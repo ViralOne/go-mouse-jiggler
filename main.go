@@ -73,6 +73,11 @@ func onReady() {
 	mInterval3s.Check()
 
 	systray.AddSeparator()
+
+	// Secret Message
+	// mMadeWithLove := systray.AddMenuItem("made with love by ViralOne", "")
+	// mMadeWithLove.Disable()
+
 	mQuit := systray.AddMenuItem("Quit", "Quit the application")
 
 	// Create a channel for jiggle ticker
